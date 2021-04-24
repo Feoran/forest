@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:iceberg",
+      "config": {}
+    },
+    "feature": "forest:tree/tree1"
+  }
+}

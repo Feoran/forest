@@ -1,3 +1,0 @@
-execute positioned as @e[tag=set_over] run give @p minecraft:shulker_spawn_egg{display:{Name:"[{\"text\":\"主世界\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"text\":\"右键地面以生成传送门\",\"color\":\"green\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]},EntityTag:{Tags:["set_over"],NoAI:1b,Invulnerable:1b,PersistenceRequired:1b,Silent:1b,NoGravity:1b,Invisible:1,Rotation:[0f],Pose:{Head:[0f,0f,0f],Body:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f]},id:"minecraft:armor_stand"}} 1
-execute as @e[tag=set_over] run kill @e[tag=set_over]
-say 错误的世界，传送门已返还。

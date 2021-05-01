@@ -1,2 +1,0 @@
-execute as @e[tag=set_over,distance=0..] in minecraft:overworld if entity @e[tag=set_over,distance=0..] run function forest:useback/over
-execute as @e[tag=set_over,distance=0..] in forest:forestworld if entity @e[tag=set_over,distance=0..] run function forest:overworld/portal

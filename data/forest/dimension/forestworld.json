@@ -1,0 +1,145 @@
+{
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 114514,
+    "decorator": [
+      {
+      "type":"minecraft:decorated",
+      "inner":"minecraft:lava_lake"
+      },
+      {
+        "type":"minecraft:decorated",
+        "inner":"minecraft:water_lake"
+        }
+    ],
+    "biome_source": {
+      "type":"minecraft:multi_noise",
+      "humidity_noise": { "firstOctave": -7, "amplitudes": [ 1.0, 1.0 ] },
+			"altitude_noise": { "firstOctave": -7, "amplitudes": [ 1.0, 1.0 ] },
+			"weirdness_noise": { "firstOctave": -7, "amplitudes": [ 1.0, 1.0 ] },
+			"temperature_noise": { "firstOctave": -7, "amplitudes": [ 1.0, 1.0 ] },
+      "biomes": [
+          {
+            "parameters": {
+              "altitude": 0.42,
+              "weirdness": 0.0,
+              "offset": 0.0,
+              "temperature": 0.2,
+              "humidity": 0.0
+            },
+            "biome": "forest:flower_forest"
+          },
+          {
+            "parameters": {
+              "altitude": -0.26,
+              "weirdness": -0.42,
+              "offset": 0.0,
+              "temperature": 0.5,
+              "humidity": 0.0
+            },
+            "biome": "forest:nether_d"
+          },
+          {
+            "parameters": {
+              "altitude": 0.5,
+              "weirdness": 0.25,
+              "offset": 0.0,
+              "temperature": -0.16,
+              "humidity": 0.0
+            },
+            "biome": "forest:shan"
+          },
+          {
+            "parameters": {
+              "altitude": 0.3,
+              "weirdness": 0.0,
+              "offset": 0.1,
+              "temperature": -0.25,
+              "humidity": 0.0
+            },
+              "biome": "forest:forest"
+          },
+          {
+            "parameters": {
+              "altitude": 0.0,
+              "weirdness": 0.6,
+              "offset": 0.11,
+              "temperature": 0.5,
+              "humidity": 0.0
+            },
+              "biome": "minecraft:ocean"
+          },
+          {
+            "parameters": {
+              "altitude": 0.15,
+              "weirdness": 0.0,
+              "offset": 0.1,
+              "temperature": 0.5,
+              "humidity": 0.0
+            },
+              "biome": "forest:black_forest"
+          }
+      ],
+      "seed": 114514,
+      "large_biomes": false
+    },
+    "settings": {
+      "default_block": {
+        "Name": "minecraft:stone",
+        "Properties": {}
+      },
+      "default_fluid": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "8"
+        }
+      },
+      "bedrock_floor_position": 2,
+      "bedrock_roof_position": -10,
+      "sea_level": 32,
+      "disable_mob_generation": false,
+      "noise": {
+        "height": 128,
+        "sampling": {
+          "xz_scale": 2,
+          "y_scale": 1,
+          "xz_factor": 160,
+          "y_factor": 40
+        },
+        "top_slide": {
+          "target": -10,
+          "size": 3,
+          "offset": 0
+        },
+        "bottom_slide": {
+          "target": 10,
+          "size": 4,
+          "offset": -1
+        },
+        "size_horizontal": 1,
+        "size_vertical": 2,
+        "density_factor": 80,
+        "density_offset": 0.019921875,
+        "simplex_surface_noise": true,
+        "random_density_offset": true,
+        "island_noise_override": false,
+        "amplified": false
+      },
+      "structures": {
+        "stronghold": {
+          "distance": 32,
+          "spread": 3,
+          "count": 128
+        },
+      "structures": {
+        "minecraft:village": {
+          "spacing": 32,
+          "separation": 8,
+          "salt": 10387312
+        }
+      }
+    }
+  }
+},
+  "type": "minecraft:overworld"
+}
